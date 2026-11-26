@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearth &amp; Ledger — Anggaran Rumah Tangga</title>
+<meta name="description" content="Setiap rupiah punya tugas: anggaran, transaksi, tujuan tabungan, tagihan dan perencana untuk satu rumah tangga.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4d3a'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='%23f2a007' font-family='sans-serif' font-weight='bold'%3ERp%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">⌂</span>
+      <div>
+        <h1>Hearth &amp; Ledger</h1>
+        <p class="tagline">Setiap rupiah punya tugas.</p>
+      </div>
+    </div>
+    <div class="household">
+      <strong>Keluarga Hartono</strong>
+      <span>Jakarta · 4 anggota keluarga</span>
+    </div>
+  </div>
+  <nav class="wrap" aria-label="Halaman">
+    <a href="#/">Dasbor</a>
+    <a href="#/transactions">Transaksi</a>
+    <a href="#/budgets">Anggaran</a>
+    <a href="#/goals">Tujuan</a>
+    <a href="#/bills">Tagihan</a>
+    <a href="#/planner">Perencana</a>
+    <a href="#/reports">Laporan</a>
+  </nav>
+</header>
+<main class="wrap">
+  <h2 id="page-title" class="page-title">Dasbor</h2>
+  <div id="app" aria-live="polite"></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Data contoh untuk keluarga Hartono, Jakarta, Juni–November 2026. Semua angka bisa diubah, dihapus, atau dikembalikan ke contoh awal — perubahan tersimpan di peramban ini saja, tidak dikirim ke mana pun.</p>
+    <p><button data-action="reset-data">Kembalikan data contoh</button></p>
+  </div>
+</footer>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
